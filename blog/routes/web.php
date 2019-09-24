@@ -14,3 +14,27 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('pumasraw',function(){
+	return "Hola Felipe Sánchez";
+});
+//Ruta con parametros
+Route::get('utgz/{nombre}',function($nombre){
+	return "Hola ".$nombre;
+});
+//Ruta opcional
+Route::get('utgz/{nombre?}',function($nombre="Por favor inserta un valor."){
+	return "Hola ".$nombre;
+});
+Route::get('ejemplo',function(){
+	return view('ejemplo');
+});
+Route::get('wix',function(){
+	return view('wix.wix');
+})->name("wix");
+Route::get('tienda',function(){
+	return view('wix.tienda');
+})->name("tienda");
+
+Route::get('tienda/detalles',function(){
+	return view('wix.detalles');
+})->name('detallesProducto');
