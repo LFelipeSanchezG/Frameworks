@@ -1,0 +1,264 @@
+/* NAVBAR */
+.container-fluid{
+	padding: 0px !important;
+}
+#navbar-principal{
+	padding-left: 15% !important
+}
+#navbar-principal li{
+	padding-left: 40px !important;
+}
+.my-navbar{
+	padding: 40px !important;
+}
+.colorin{
+	background-color: #f8f8f8 !important;
+}
+.navbar-brand{
+	font-size: 50px;
+	font-family: Lucida Fax;
+	font-weight: bold;
+}
+.blanc{
+	color: #BCBCBC !important;
+}
+.cambio{
+	color: #000000 !important;
+}
+.cambio:hover{
+	color: #BCBCBC !important;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  line-height: 0.3rem;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #f8f8f8;
+}
+
+/* INICIO */
+.container1{
+	background-color: #E8E8E8;
+}
+.container2{
+	background-color: #F8F8F8;
+}
+.comerc{
+	font-family: Calisto MT;
+	font-weight: bold;
+	font-size: 40px;
+}
+.etiq{
+	font-family: courier new;
+	font-size: 35px;
+	color: white;
+	position: absolute;
+	top: 30px;
+	left: 55px;
+}
+.cinta{
+	position: absolute;
+	top: 25px;
+	left: -15px;
+	height: 60px;
+}
+hr{
+	background-color: black;
+}
+.emblem{
+	position: absolute;
+	top: 30px;
+	left: -10px;
+	width: 160px;
+	z-index: 10;
+}
+.pros{
+	font-family: Haettenschweiler;
+	font-weight: bold;
+	font-size: 45px;
+}
+.container3{
+	background-color: #e8e8e8;
+	width: 350px;
+	position: absolute;
+	top: 105px;
+	left: 50px;	
+}
+.txt{
+	font-family: Segoe UI;
+	font-size: 22px;
+}
+.txt-min{
+	font-family: Segoe UI;
+	font-size: 15px;
+	font-style: italic;
+}
+.bot2{
+	width: 200px;
+	height: 40px;
+}
+.bot1{
+	background-color: transparent;
+	color: #333;
+	font-size: 15px;
+	border-color: #333;
+	border-radius: 0;
+}
+.bot1:hover{
+	background-color: transparent;
+	color: #bcbcbc;
+	border-color: #bcbcbc;"
+}
+.img-cal{
+	position: absolute;
+	top: 140px;
+	left: 170px;
+	width: 75px;
+	z-index: 10;
+}
+/* TIENDA */
+.hid{
+	position: absolute;
+	top: 155px;
+	left: 400px;
+	font-family: courier new;
+	font-size: 36px;
+}
+.precio{
+	font-size: 16px;
+	font-family: book antiqua;
+	color: #333;
+}
+.num{
+	font-style: italic;
+	font-size: 13px;
+	color: #767676;
+	font-family: palatino linotype;
+}
+.img-tienda img{
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+.cont-img{
+	overflow: hidden;
+}
+.zoom:hover{
+	transform: scale(2.5);
+}
+.img-tienda:hover .txt-img-tienda{
+	cursor: pointer;
+	display: block;
+	transform: translateY(-40px);
+	transition: 0.2s all;
+	color: black;
+}
+.txt-img-tienda{
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
+	transition: all 0.5s;
+	font-family: book antiqua;
+	width: 200px;
+	height: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.pre-img-tienda{
+	position: absolute;
+	z-index: -1;
+	text-align: center;
+}
+.img-tienda:hover .pre-img-tienda{
+	z-index: 10;
+}
+.oferta{
+	position: absolute;
+	width: 125px;
+	z-index: 20;
+}
+
+/* PRODUCTO */
+.breadcrumb{
+	background-color: #f8f8f8 !important;
+	padding:0;
+	font-family: book antiqua;
+}
+.menu{
+	text-align: right;
+	font-family: book antiqua;
+}
+.active{
+	color: #BCBCBC !important;
+}
+.txt-menu{
+	color: #333 !important;
+}
+.cont-img2{
+	overflow: hidden;
+}
+.txt-detalle{
+	font-family: book antiqua;
+	color: #595959;
+}
+.btn-carrito{
+	border-radius: 0;
+	background-color: #42BFB0;
+	color: #fff;
+}
+.cantidad{
+	width: 80px;
+	height: 40px;
+}
+.sep2{
+	padding-left: 5% !important;
+}
+/* FOOTER */
+.navi{
+	background-color: #333 !important;
+	padding-top: 60px;
+	color: white;
+	font-size: 15px;
+}
+#uri{
+	color: #dfdfdf;
+	font-family: book antiqua;
+	background-color: #333;
+	padding-bottom: 40px;
+}
+
+.sep{
+	padding-left: 10% !important;
+}
+a{
+	color: #dfdfdf;
+}
+.fa-facebook-f:hover{
+	color: #4267B2;
+}
+.fa-twitter:hover{
+	color: #1B95E0;
+}
+.fa-google-plus-g:hover{
+	color: red;
+}
+#cantidad{
+	width: 250px;
+}
+.bott{
+	width: 250px;
+	margin-top: 5px;
+}
