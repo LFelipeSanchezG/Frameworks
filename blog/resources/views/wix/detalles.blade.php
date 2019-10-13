@@ -38,5 +38,8 @@
 		<hr>
 	</div>	
 </div>
+<div id="img-full">
+	<img src="/img/ropa4.jpg">		
+</div>
 
 @endsection

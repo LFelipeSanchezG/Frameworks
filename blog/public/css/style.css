@@ -120,3 +120,23 @@
 .par1{
 	text-align: justify;
 }
+#img-full{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	top:0;
+	left: 0;
+	z-index: 10;
+	text-align: center;
+	display: none;
+}
+#img-full img{
+	margin: auto;
+	padding-top: 100px;
+}
+.img-producto{
+	width: 130px;
+	height: 80px;
+	border-radius: 20%;
+}

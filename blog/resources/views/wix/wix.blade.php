@@ -42,14 +42,4 @@
 			
 		</div>
 
-		<ul id="materias">
-			<li>Realidad Aumentada</li>
-			<li>Frameworks para Desarrollo Web</li>
-		</ul>
-
-		<form>
-			<input id="nombre" type="text" name="nombre">
-			<input id="boton" type="submit" name="boton">
-			<input id="agregar" type="submit" name="agregar" value="agregar"><br>
-		</form>
 @endsection

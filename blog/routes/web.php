@@ -38,3 +38,15 @@ Route::get('tienda',function(){
 Route::get('tienda/detalles',function(){
 	return view('wix.detalles');
 })->name('detallesProducto');
+
+Route::resource('categorias','CategoriasController');
+
+Route::resource('usuarios','usersControlle');
+
+Route::resource('productos','ProductosController');
+
+Route::resource('roles','RolesController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
